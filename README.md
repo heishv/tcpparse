@@ -6,11 +6,10 @@ Both x86 and ARM tested.
 ## Build image
 ```
 make
-```shell
+-------------------------------
 gcc -o tcpparse.o -c tcpparse.c
 gcc -o crc.o -c crc.c
 gcc -o tcpparse    tcpparse.o  crc.o   -ldl -lrt -lpthread -lm -static
-```
 ```
 ## The help information
 ```
