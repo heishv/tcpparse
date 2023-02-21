@@ -1,6 +1,7 @@
 # tcpparse
 
 This tool is used for simple analysis of pcap file and extraction of main fields for the automatic test program to identify the test results.
+Both x86 and ARM tested.
 
 ## The help information
 ```
