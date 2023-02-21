@@ -27,7 +27,8 @@ OPTIONS:
       --pl       Print payload.
 ```
 
-## Select the packet serial number. The serial number here is the number in wireshark. If keep empty, the first message is selected by default. 
+## Select the packet serial number
+The serial number here is the number in wireshark. If keep empty, the first message is selected by default. 
 ```
 ./tcpparse --sm ./tcpdump.pcap
 00:50:56:8e:9a:c8
